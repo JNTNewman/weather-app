@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="bg-div"></div>
+    <div class="container">
+        <div class="card">
+            <div class="card-contents">
+                <div class="card-header">
+                    <input type="text" name="city" id="city-input" placeholder="City Name">
+                    <button id="submit"><span class="country"></span></button>
+                </div>
+                <div class="condition-wrapper">
+                    <span id="condition"></span>
+                </div>
+                <div class="condition-summary">
+                    <div id="circle" class="circle">
+                        <span id="weather-icon" class="weather-icon"></span>
+                        <span id="temperature" class="temperature"></span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="feels-like"><span id="feels-like"></span></div>
+                    <hr>
+                    <div class="measurements">
+                        <div class="item-name"><img src="./images/humidity.png" width="24px" /><span class="item-value"
+                                id="humidity"></span></div>
+                        <div class="item-name"><i class="fa-solid fa-cloud"></i><span class="item-value"
+                                id="cloud-cover"></span></div>
+                        <div class="item-name"><i class="fa-solid fa-wind"></i><span class="item-value"
+                                id="wind"></span>
+                        </div>
+                    </div>
+                    <div class="sunrise-sunset-img-wrapper">
+                        <img src="./images/sunrise-gray.png" alt="sunrise image">
+                        <img src="./images/sunset-gray.png" alt="sunset image">
+                    </div>
+                    <div class="sunrise-sunset-values">
+                        <div class="item-name"><span class="item-value" id="sunrise"></span></div>
+                        <div class="item-name"><span class="item-value" id="sunset"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
