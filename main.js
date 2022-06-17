@@ -2,14 +2,6 @@ import apiKey from './store.js'
 
 let baseApiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
 
-if (window.navigator.geolocation) {
-    window.navigator.geolocation.getCurrentPosition((position) => {
-                            console.log(position.coords.latitude)
-            });
-} 
-
-
-
 let cityName = 'Kathmandu' // default city
 let input = document.querySelector('input')
 let button = document.querySelector('button')

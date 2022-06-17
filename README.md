@@ -1,5 +1,7 @@
 # Javascript Weather App
 
+<a href="./images/weather-app.png" title="Weather App Preview"><img src="./images/weather-app.png" width="800" alt="Download Sun Icon" /></a>
+
 ## Welcome 👋
 
 Welcome to this Javascript weather app repository.
