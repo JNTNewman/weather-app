@@ -14,6 +14,7 @@
 }
 
 body {
+    height: 100vh;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
@@ -39,7 +40,7 @@ body {
 .container {
     display: flex;
     min-width: 300px;
-    min-height: 100vh;
+    min-height: 85vh;
     justify-content: center;
     align-items: center;
     padding: 2rem;
@@ -48,13 +49,13 @@ body {
 
 .card {
     padding: 30px 15px;
+    margin: 20px 0;
     border-radius: 20px;
-    height: 560px;
+    height: 540px;
     width: 380px;
     border: 1px solid var(--color-platinum);
     box-shadow: 1px 1px 3px var(--color-grey);
     background-color: var(--color-background);
-    /* animation: animate 0.1s; */
 }
 
 .card-contents {
@@ -161,6 +162,7 @@ sup {
 
 .feels-like {
     margin-bottom: 30px;
+    font-size: 1.2rem;
 }
 
 hr {
@@ -187,14 +189,13 @@ hr {
 }
 
 .current-time-header {
-    font-size: 1rem;
+    font-size: 1.05rem;
     margin-top: 5px;
     line-height: 0.8rem;
 }
 
-.sunrise-sunset-values {
+.time-values {
     display: flex;
-    justify-content: center;
-    gap: 60px;
-    font-size: 1.0rem;
+    justify-content: space-between;
+    font-size: 1.2rem;
 }
