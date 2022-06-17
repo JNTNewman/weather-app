@@ -13,6 +13,7 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicons/favicon.ico">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
             <div class="card-contents">
                 <div class="card-header">
                     <input type="text" name="city" id="city-input" placeholder="City Name">
-                    <button id="submit"><span class="country"></span></button>
+                    <button><span class="country"></span></button>
 
                 </div>
                 <div class="condition-wrapper">
@@ -38,21 +39,21 @@
                     <div class="feels-like"><span id="feels-like"></span></div>
                     <hr>
                     <div class="measurements">
-                        <div class="item-name"><img src="./images/humidity.png" width="24px" /><span class="item-value"
+                        <div><img src="./images/humidity.png" width="24px" /><span class="item-value"
                                 id="humidity"></span></div>
-                        <div class="item-name"><i class="fa-solid fa-cloud"></i><span class="item-value"
-                                id="cloud-cover"></span></div>
-                        <div class="item-name"><i class="fa-solid fa-wind"></i><span class="item-value"
-                                id="wind"></span>
+                        <div><i class="fa-solid fa-cloud"></i><span class="item-value" id="cloud-cover"></span></div>
+                        <div><i class="fa-solid fa-wind"></i><span class="item-value" id="wind"></span>
                         </div>
                     </div>
                     <div class="sunrise-sunset-img-wrapper">
                         <img src="./images/sunrise-gray.png" alt="sunrise image">
+                        <span class="current-time-header">NOW</span>
                         <img src="./images/sunset-gray.png" alt="sunset image">
                     </div>
                     <div class="sunrise-sunset-values">
-                        <div class="item-name"><span class="item-value" id="sunrise"></span></div>
-                        <div class="item-name"><span class="item-value" id="sunset"></span></div>
+                        <div><span id="sunrise"></span></div>
+                        <div><span id="weather-location-time"></span></div>
+                        <div><span id="sunset"></span></div>
                     </div>
                 </div>
             </div>
