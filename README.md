@@ -32,10 +32,10 @@ This is used in the main.js file following import:
 
 The app takes city name query and returns information about weather conditions: temperature, feel, wind speed, sky condition, humidity, cloud cover, sunrise, sunset and actual time in that city. The background of the container div changes depending on the weather conditions and night and day. Images for the background are from [Unsplash.com](https://unsplash.com/). I have tried to have images to cover all possible conditions but I may have missed some.
 
-You may also input the query string as City Name, Country (eg. Miami, US)
+You may also input the query string as City Name, State and Country (eg. San Francisco, US or San Francisco, CA, US)
 
 ## Use
 
 Feel free to clone, fork and improve as you desire.
 
-*John Newman*
+*==John Newman==*
