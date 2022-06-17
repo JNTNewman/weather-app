@@ -38,4 +38,4 @@ You may also input the query string as City Name, State and Country (eg. San Fra
 
 Feel free to clone, fork and improve as you desire.
 
-*==John Newman==*
+*John Newman*
