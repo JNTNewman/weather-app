@@ -119,7 +119,7 @@ async function getWeatherData (city) {
     )}°C</strong>`
     humidityTag.innerHTML = ` ${data.main.humidity}%`
     cloudCoverTag.innerText = ` ${data.clouds.all}%`
-    windSpeedTag.innerText = ` ${data.wind.speed.toFixed(1)} m/s`
+    windSpeedTag.innerText = ` ${(data.wind.speed * 3.6).toFixed(1)} km/h`
     sunriseTag.innerText = sunriseTime
     weatherLocationTimeTag.innerText = weatherLocationTime
     sunsetTag.innerText = sunsetTime

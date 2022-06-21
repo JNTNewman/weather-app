@@ -9,6 +9,16 @@
 
 }
 
+@keyframes grow_in {
+    0% {
+        transform: scale(0.75, 0.75);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -56,6 +66,7 @@ body {
     border: 1px solid var(--color-platinum);
     box-shadow: 1px 1px 3px var(--color-grey);
     background-color: var(--color-background);
+    animation: grow_in 1s ease;
 }
 
 .card-contents {
