@@ -1,6 +1,6 @@
 # Javascript Weather App
 
-<a href="./images/weather-app.png" title="Weather App Preview"><img src="./images/weather-app.png" width="820" alt="Download Sun Icon" /></a>
+<a href="./images/weather-app.png" title="Weather App Preview"><img src="./images/weather-app.png" width="820" alt="Sample image of App" /></a>
 
 ## Welcome 👋
 
